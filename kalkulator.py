@@ -7,7 +7,7 @@ while True:
         
         if angka1 == 0 and angka2 == 0:
             print("Error: Kedua angka tidak boleh 0 sekaligus!")
-            continue  # Lanjutkan loop, jangan break
+            continue 
         elif angka1 == 0:
             print("Error: Angka pertama tidak boleh 0!")
             continue
@@ -15,7 +15,7 @@ while True:
             print("Error: Angka kedua tidak boleh 0 untuk operasi pembagian!")
             continue
             
-        # Jika semua valid, keluar dari loop
+        
         break
     except ValueError:
         print("Input harus berupa angka!")
