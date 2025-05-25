@@ -34,35 +34,7 @@ def main():
         elif pilihan == '3':    
             tambah_kontak(kontak)
         elif pilihan == '4':
-            hapus_kontak(kontak)    
-        
-            
-        # elif pilihan == '5': # bawaan
-        #     keluar = input('Apakah Anda yakin ingin keluar? (y/n): ').strip().lower()
-        #     if keluar == 'y':
-        #         print('Program dihentikan.')
-        #         break
-        #     elif keluar == 'n':
-        #         print('Kembali ke menu utama.') 
-                
-        #     else:
-        #         print('Input tidak valid. Silakan masukkan "y" atau "n".')
-        #         continue
-        
-        # elif pilihan == '5': #gpt
-        #     while True:
-        #         keluar = input('Apakah Anda yakin ingin keluar? (y/n): ').strip().lower()
-        #         if keluar == 'y':
-        #             print('Program dihentikan.')
-        #             break
-        #         elif keluar == 'n':
-        #             print('Kembali ke menu utama.')
-        #             break
-        #         else:
-        #             print('Input tidak valid. Silakan masukkan "y" atau "n".')
-        #     if keluar == 'y':
-        #         break  # keluar dari while True utama 
-            
+            hapus_kontak(kontak)     
         elif pilihan == '5':
             while True:
                 keluar = input('Apakah Anda yakin ingin keluar? (y/n): ').strip().lower()
